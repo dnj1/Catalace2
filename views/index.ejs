@@ -65,7 +65,7 @@
               <li><a href="#stuff">Privacy Policy and Terms and Condtions</a></li>
               <li class="drop-down"><a href="#">Drop Down 2</a>
                 <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#" onclick="signOut();">Sign out</a></li>
                   <li><a href="#">Deep Drop Down 2</a></li>
                   <li><a href="#">Deep Drop Down 3</a></li>
                   <li><a href="#">Deep Drop Down 4</a></li>
@@ -88,7 +88,6 @@
           <div class="g-signin2" data-onsuccess="onSignIn"></div>
           </li></a>
           
-          <li><a href="#" onclick="signOut();">Sign out</a></li>
 <script>
   function signOut() {
     var auth2 = gapi.auth2.getAuthInstance();
