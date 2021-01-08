@@ -1,10 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<script src="https://apis.google.com/js/platform.js" async defer></script>
-<meta name="google-signin-client_id" content="300562758625-tknpahnqfdocg067t7f5mkmk71qaijnc.apps.googleusercontent.com">
-
-
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -54,16 +50,12 @@
         <ul>
           <li class="active"><a href="#index.html">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>	
-          <li><a href="#portfolio">Portfolio</a></li>	
           <li><a href="#team">Team</a></li>
-          <li><a href="#pricing">Pricing</a></li>	
           <li class="drop-down"><a href="">More</a>
             <ul>
               <li><a href="#stuff">Privacy Policy and Terms and Condtions</a></li>
               <li class="drop-down"><a href="#">Account Management</a>
                 <ul>
-                  <li><a href="#" onclick="signOut();">Sign out</a></li>
                   <li><a href="#">Deep Drop Down 2</a></li>
                   <li><a href="#">Deep Drop Down 3</a></li>
                   <li><a href="#">Deep Drop Down 4</a></li>
@@ -77,36 +69,7 @@
           </li>
           <li><a href="#contact">Contact</a></li>
           
-          </li></a>
-          
-          <li><a
-          <script src="https://apis.google.com/js/platform.js" async defer></script>
-          <meta name="google-signin-client_id" content="300562758625-aa9lf7t9gku8sm2n3d68j8nru7rhau18.apps.googleusercontent.com">
-
-          <div class="g-signin2" data-onsuccess="onSignIn"></div>
-          </li></a>
-          
-<script>          
-function onSignIn(googleUser) {
-    var profile = googleUser.getBasicProfile();
-    console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
-      console.log('Name: ' + profile.getName());
-        console.log('Image URL: ' + profile.getImageUrl());
-          console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
-}
-
-</script>
-          
-<script>
-  function signOut() {
-    var auth2 = gapi.auth2.getAuthInstance();
-    auth2.signOut().then(function () {
-      console.log('User signed out.');
-    });
-  }
-</script>
-
-        </ul>
+          </ul>
       </nav><!-- .nav-menu -->
 
     </div>
